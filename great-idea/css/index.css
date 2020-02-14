@@ -158,7 +158,7 @@ h5 {
 .page2 div.d2 {
   border: 1px solid black;
   display: flex;
-  width: 35%;
+  width: 46%;
   flex-wrap: wrap;
   flex-direction: column;
   padding: 3%;
@@ -174,7 +174,7 @@ h5 {
 .page2 button {
   width: 35%;
   border: 1px solid black;
-  border-radius: 10%;
+  border-radius: 5%;
   padding: 2%;
   margin: 6% 0 1% 0;
 }
@@ -203,7 +203,36 @@ a {
 hr {
   border: 1px solid black;
 }
-.s3 {
+div.s3 {
   display: flex;
-  width: 35%;
+  flex-direction: column;
+  width: 53%;
+}
+section {
+  display: flex;
+  margin: 4%;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+ul li {
+  margin: 2%;
+  padding: 2%;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+img.services-info-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.services-header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
